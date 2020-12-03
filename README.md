@@ -7,5 +7,5 @@
 <h2>
 
 <p>
-    Recriando o jogo da velha com uma diiculdade relativamente facil, o computador irá jogar aleatoriamente enquanto houverem espaços disponiveis.  
+    Recriando o jogo da velha com em uma dificuldade relativamente fácil, o computador irá jogar aleatoriamente enquanto houverem espaços disponíveis.  
 </p>
