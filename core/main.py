@@ -20,3 +20,7 @@ class Game():
         linha = int(input('linha: '))
         coluna = int(input('coluna: '))    
         self.atribui(linha,coluna)
+        
+    def atribui(self,linha,coluna):
+        self.estrutura[linha][coluna] == 1
+
