@@ -14,3 +14,9 @@ class Game():
         print('0:  {} |  {} | {}'.format(self.estrutura[0][0],self.estrutura[0][1],self.estrutura[0][2]))
         print('1:  {} |  {} | {}'.format(self.estrutura[1][0],self.estrutura[1][1],self.estrutura[1][2]))
         print('2:  {} |  {} | {}'.format(self.estrutura[2][0],self.estrutura[2][1],self.estrutura[2][2]))
+
+    def pergunta(self):
+        
+        linha = int(input('linha: '))
+        coluna = int(input('coluna: '))    
+        self.atribui(linha,coluna)
