@@ -1,4 +1,9 @@
 class Game():    
+    def __init__(self):
+        self.create_player()
+        self.create_estrutura()
+        self.menu()
+
     def create_estrutura(self):
         self.estrutura = [[0,0,0],[0,0,0],[0,0,0]]
 
