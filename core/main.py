@@ -24,3 +24,32 @@ class Game():
     def atribui(self,linha,coluna):
         self.estrutura[linha][coluna] == 1
 
+    def verifica(self):
+        for line in self.estrutura:
+            if line == [1,1,1]:
+                self.resultado = 1
+                break
+            elif line == [-1,-1,-1]:
+                self.resultado = 2
+                break
+
+        if ((self.estrutura[0][0] and self.estrutura[1][1] and self.estrutura[2][2])== [1,1,1]):
+            self.resultado = 1
+            
+        elif  ((self.estrutura[0][2] and self.estrutura[1][1]and self.estrutura[2][0]) ==  [1,1,1]):
+            self.resultado = 1
+            
+        elif((self.estrutura[0][0] and self.estrutura[1][1] and self.estrutura[2][2]) == [-1,-1,-1]):
+            self.resultado = 2
+            
+        elif ((self.estrutura[0][2] and self.estrutura[1][1]and self.estrutura[2][0]) == [-1,-1,-1]):
+            self.resultado = 2
+
+        for column in zip(self.estrutura[0],self.estrutura[1],self.estrutura[2]):
+            if(column == (1,1,1)):
+                self.resultado = 1
+                break
+            elif(column == (-1,-1,-1)):
+                self.resultado = 2
+                break
+    
