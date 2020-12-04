@@ -53,3 +53,34 @@ class Game():
                 self.resultado = 2
                 break
     
+    def menu(self):
+        while self.jogadas < 9:
+
+            self.printa()
+            self.pergunta()
+            self.atribui()
+            self.verifica()
+            if(self.resultado == 1):
+                print('wins player 1')
+                break
+            elif(self.resultado == -1):
+                print('wins player 2')
+                break
+            if(self.jogadas == 9):
+                print('Deu Velha')
+                break
+            self.jogadas+=1
+            self.printa()
+            self.pergunta()
+            self.atribui()
+            self.verifica()
+            if(self.resultado == 1):
+                print('wins player 1')
+                break
+            elif(self.resultado == -1):
+                print('wins player 2')
+                break
+            if(self.jogadas == 9):
+                print('Deu Velha')
+                break
+            self.jogadas+=1
