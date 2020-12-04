@@ -1,4 +1,10 @@
 class Game():    
+    player = None
+    estrutura=None
+    resposta = ''
+    resultado = 0
+    jogadas = 0
+
     def __init__(self):
         self.create_player()
         self.create_estrutura()
