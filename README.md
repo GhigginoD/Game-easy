@@ -6,6 +6,6 @@
    :memo: sobre: 
 <h2>
 
-<h4>
+<h3>
     Recriando o jogo da velha com em uma dificuldade relativamente fácil, o computador irá jogar aleatoriamente enquanto houverem espaços disponíveis.  
-</h4>
+</h3>
