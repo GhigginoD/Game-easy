@@ -6,6 +6,4 @@
    :memo: sobre: 
 <h2>
 
-<p>
-    Recriando o jogo da velha com em uma dificuldade relativamente fácil, o computador irá jogar aleatoriamente enquanto houverem espaços disponíveis.  
-</p>
+:pencil: Recriando o jogo da velha com em uma dificuldade relativamente fácil, o computador irá jogar aleatoriamente enquanto houverem espaços disponíveis.  
